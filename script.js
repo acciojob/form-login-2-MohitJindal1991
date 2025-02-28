@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const Button=document.querySelector('#submit');
-Button.addEventListener('click',(e)=>{
+const Form=document.querySelector('#form');
+Form.addEventListener('submit',(e)=>{
 	const FirstName=document.querySelector('#firstName');
 	const LastName=document.querySelector('#lastName');
 	const Phone=document.querySelector('#phone');
